@@ -53,6 +53,38 @@ for(let i = 1; i <= 100; i++) {
 // Wild Wild Life
 ////////////////////////////////
 
+const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
+const sharky = ["Sharky", "shark", 20, "Left Coast"]
+const plantee = ["Plantee", "plant",  5000 , "Mordor"]
+const porgee = ["Porgee", "Porg", 186, "Ahch-To"]
+const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
+
+// 1
+const newAge = plantee.indexOf(5000)
+
+plantee.splice(newAge, 2, 5001)
+plantee.push("Mordor")
+
+console.log(plantee);
+  
+
+// 2
+const changeHometown = wolfy.pop();
+const newHometown = wolfy.push("Gotham City");
+
+console.log(wolfy);
+
+
+// 3
+const newTown = plantee.push("Hawkins")
+console.log(plantee);
+
+// 4 used documentation
+const removeWolfy = wolfy.shift();
+const addGameboy = wolfy.unshift("Gameboy");
+
+console.log(wolfy);
+
 
 
 
