@@ -20,9 +20,34 @@ for(i = 0; i <= 200; i++){
 ////////////////////////////////
 // Fizz Buzz
 ////////////////////////////////
+ 
+// 1 - loop 1-100
+for(let i = 1; i <= 100; i++) {
+    console.log(i);
+  }
 
+// 2 - Divisible by 3 = Fizz
+for(let i = 1; i <= 100; i++) {
+  const multipleOf3 = i % 3 === 0;
+  if(multipleOf3) {
+    console.log('Fizz');
+  }
+}
 
+// 3 - Divisible by 5 = Buzz
+for(let i = 1; i <= 100; i++) {
+  const multipleOf5 = i % 5 === 0;
+  if(multipleOf5) {
+    console.log('Buzz');
+  }
+}
 
+// 4 - Both = FizzBuzz
+for(let i = 1; i <= 100; i++) {
+  if(i % 3 === 0 && i % 5 === 0) {
+    console.log('FizzBuzz');
+  }
+}
 
 ////////////////////////////////
 // Wild Wild Life
