@@ -103,7 +103,24 @@ for (ninjaTurtle of ninjaTurtles) {
 ////////////////////////////////
 // Methods, Revisited
 ////////////////////////////////
+const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
 
+console.log(favMovies.indexOf("Titanic")); // 8
+console.log(favMovies.sort()); // the array' order changed
+console.log(favMovies.push("Guardians of the Galaxy")); // adding movie into the array
+console.log(favMovies.reverse()); // array on reverse
+
+// console.log(favMovies.shift("Fast and Furious"); --> didn't get the right output for this (Question 5 and 6)
+// console.log(favMovies.unshift("Fast and Furious")); 
+
+// console.log(favMovies.indexOf("Django Unchained")); -> to find the index number for Django
+favMovies.splice(16, 1, "Avatar"); // replaces Django with Avatar
+console.log(favMovies);
+
+// const halfOfArray = favMovies.slice()
+console.log(favMovies.slice(9, 20));
+
+console.log(favMovies.indexOf("Fast and Furious")); 
 
 
 
