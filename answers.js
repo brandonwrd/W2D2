@@ -146,6 +146,18 @@ console.log(whereIsWaldo);
 ////////////////////////////////
 //  Excited Kitten
 ////////////////////////////////
+let i = 0
+
+for(i = 0; i < 20; i++) {
+  console.log('Love me, pet me! HSSSSSS!')
+}
+
+for (i = 0; i < 20; i++) {
+  console.log('Love me, pet me! HSSSSSS!');
+} if(i % 2 == 0) {
+    console.log('..human...why you taking pictures of me?...')
+} 
+
 
 
 
